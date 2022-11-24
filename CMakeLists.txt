@@ -14,7 +14,7 @@ qt_add_executable(applist_practice
 qt_add_qml_module(applist_practice
     URI list_practice
     VERSION 1.0
-    QML_FILES main.qml Box.qml
+    QML_FILES main.qml Box.qml Reapeaterqml.qml Background.qml Delegate.qml
 )
 
 set_target_properties(applist_practice PROPERTIES
